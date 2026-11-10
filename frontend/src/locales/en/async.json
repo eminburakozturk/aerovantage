@@ -1,0 +1,8 @@
+{
+  "errorTitle": "Something went wrong",
+  "retry": "Retry",
+  "emptyTitle": "No data found",
+  "loadingData": "Loading data",
+  "loadingPage": "Loading page",
+  "settingsLoading": "Loading administration page"
+}

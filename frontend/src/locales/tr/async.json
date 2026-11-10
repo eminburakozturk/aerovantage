@@ -1,0 +1,8 @@
+{
+  "errorTitle": "Bir sorun oluştu",
+  "retry": "Tekrar dene",
+  "emptyTitle": "Veri bulunamadı",
+  "loadingData": "Veriler yükleniyor",
+  "loadingPage": "Sayfa yükleniyor",
+  "settingsLoading": "Yönetim sayfası yükleniyor"
+}

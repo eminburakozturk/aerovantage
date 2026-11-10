@@ -1,0 +1,26 @@
+{
+  "brand": "ΛEROVΛNTΛGE",
+  "tagline": "Operational Intelligence",
+  "edition": "Kurumsal",
+  "version": "v1.0.0-rc1",
+  "retry": "Tekrar dene",
+  "loading": "Yükleniyor",
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "status": {
+    "operational": "Operasyonel",
+    "maintenance": "Bakımda",
+    "offline": "Kapalı",
+    "degraded": "Düşük performans",
+    "ok": "Sağlıklı",
+    "warn": "Uyarı",
+    "crit": "Kritik",
+    "idle": "Beklemede",
+    "running": "Çalışıyor",
+    "completed": "Tamamlandı",
+    "failed": "Başarısız",
+    "mock": "Test modu",
+    "live": "Canlı",
+    "active": "Aktif"
+  }
+}

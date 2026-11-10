@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "general": "GENERAL",
+    "forecast": "FORECAST",
+    "market": "MARKET",
+    "risk": "RISK",
+    "ai": "AI",
+    "operations": "OPERATIONS",
+    "system": "SYSTEM"
+  },
+  "items": {
+    "operations": "Operations Center",
+    "dashboard": "Executive Dashboard",
+    "forecast": "Forecast Center",
+    "forecast-weather": "Weather",
+    "forecast-history": "Forecast History",
+    "market-ptf": "PTF",
+    "market-smf": "SMF",
+    "market": "Market Analysis",
+    "risk": "Risk Center",
+    "risk-financial": "Financial Risk",
+    "risk-production": "Production Risk",
+    "ai": "Decision Center",
+    "ai-archive": "AI Archive",
+    "assets": "Assets",
+    "scenarios": "Scenarios",
+    "reports": "Reports",
+    "monitoring": "Monitoring",
+    "admin": "Administration",
+    "operations-mobile": "Ops",
+    "dashboard-mobile": "Dashboard",
+    "forecast-mobile": "Forecast",
+    "ai-mobile": "AI",
+    "reports-mobile": "Reports"
+  },
+  "steps": {
+    "0800_forecast": "08:00 Production Forecast",
+    "0801_performance_monitoring": "08:01 Performance Monitoring",
+    "0802_risk_calculation": "08:02 Risk Calculation",
+    "0803_alert_generation": "08:03 Alert Generation",
+    "0804_ai_explanation": "08:04 AI Explanation",
+    "0805_dashboard_update": "08:05 Dashboard Update"
+  },
+  "pages": {
+    "dashboard": {
+      "section": "General",
+      "title": "Executive Dashboard",
+      "description": "Portfolio summary and operational status"
+    },
+    "operations": {
+      "section": "General",
+      "title": "Operations Center",
+      "description": "Live operations control room"
+    },
+    "activity": {
+      "section": "System",
+      "title": "Operations Feed",
+      "description": "Pipeline history"
+    },
+    "fallback": {
+      "section": "AeroVantage",
+      "title": "Platform",
+      "description": ""
+    }
+  }
+}

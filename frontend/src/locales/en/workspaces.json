@@ -1,0 +1,101 @@
+{
+  "forecast": {
+    "section": "Forecast",
+    "title": "Forecast Center",
+    "description": "Production forecast and accuracy",
+    "tabs": {
+      "overview": "Overview",
+      "weather": "Weather",
+      "accuracy": "Accuracy",
+      "history": "History"
+    }
+  },
+  "market": {
+    "section": "Market",
+    "title": "Market Analysis",
+    "description": "EPIAS PTF · SMF · trends",
+    "tabs": {
+      "overview": "Overview",
+      "ptf": "PTF",
+      "smf": "SMF",
+      "trends": "Trends"
+    }
+  },
+  "risk": {
+    "section": "Risk",
+    "title": "Risk Center",
+    "description": "Risk assessment and monitoring",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "financial": "Financial",
+      "production": "Production",
+      "timeline": "Timeline"
+    }
+  },
+  "ai": {
+    "section": "AI",
+    "title": "AI Analysis",
+    "description": "Briefing · recommendations · decision history",
+    "tabs": {
+      "pending": "Pending Actions",
+      "archive": "Archive"
+    }
+  },
+  "reports": {
+    "section": "Operations",
+    "title": "Reports",
+    "description": "Report generation and export",
+    "tabs": {
+      "executive": "Executive",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "portfolio": "Portfolio",
+      "export": "Export"
+    }
+  },
+  "assets": {
+    "section": "Operations",
+    "title": "Assets",
+    "description": "Plant inventory",
+    "tabs": {
+      "plants": "Plants",
+      "turbines": "Turbines",
+      "health": "Health",
+      "performance": "Performance"
+    }
+  },
+  "monitoring": {
+    "section": "System",
+    "title": "Monitoring",
+    "description": "API and system health",
+    "tabs": {
+      "observability": "Observability",
+      "api": "API",
+      "health": "Health",
+      "jobs": "Jobs",
+      "logs": "Logs",
+      "activity": "Feed"
+    }
+  },
+  "scenarios": {
+    "section": "Operations",
+    "title": "Scenarios",
+    "description": "What-if simulation",
+    "tabs": {
+      "builder": "Builder",
+      "history": "History"
+    }
+  },
+  "settings": {
+    "section": "System",
+    "title": "Administration",
+    "description": "Users · AI models · configuration",
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users",
+      "models": "AI Models",
+      "config": "Configuration",
+      "language": "Language"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "language": {
+    "title": "Language Preference",
+    "description": "UI, AI briefings, and report exports use the selected language.",
+    "current": "Active language",
+    "saved": "Language preference saved"
+  },
+  "users": {
+    "title": "Users",
+    "meta": "{count} registered",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status"
+  },
+  "models": {
+    "title": "AI Models",
+    "loading": "Loading",
+    "loadingInfo": "Loading model information...",
+    "loadFailed": "Could not load model information",
+    "active": "Active: {name} ({type})",
+    "apiKey": "API key: {status}",
+    "apiKeyConfigured": "Configured",
+    "apiKeyMissing": "Not configured (playbook mode)",
+    "providers": "Providers: {list}",
+    "modeLive": "Live LLM",
+    "modePlaybook": "Playbook (mock)",
+    "playbookEntries": "Playbook entries: {count}",
+    "cutoverHint": "For live LLM set LLM_PROVIDER=openai|gemini and LLM_API_KEY in .env, then restart the backend.",
+    "docsHint": "Details: docs/AI-ML-OPS.md"
+  },
+  "config": {
+    "title": "System Configuration",
+    "loadFailedTitle": "Configuration unavailable",
+    "loading": "Loading system settings...",
+    "unavailable": "Could not access configuration.",
+    "env": "Environment",
+    "log": "Log",
+    "epiasMode": "EPIAS mode",
+    "weatherMode": "Weather mode",
+    "scadaMode": "SCADA mode",
+    "llm": "LLM",
+    "testMode": "Test",
+    "liveMode": "Live"
+  },
+  "overview": {
+    "apiTitle": "API Status",
+    "apiOk": "Backend active",
+    "apiWarn": "Check required",
+    "plantsTitle": "Plants",
+    "plantsMeta": "{count} registered"
+  },
+  "loadFailed": "Failed to load"
+}

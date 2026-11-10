@@ -1,0 +1,21 @@
+{
+  "generic": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+  "long": "İşlem tamamlanamadı. Lütfen tekrar deneyin veya yöneticinize başvurun.",
+  "loadFailed": "Veri yüklenemedi",
+  "downloadFailed": "İndirme başarısız ({status})",
+  "downloadEmpty": "İndirme başarısız: boş dosya",
+  "patterns": {
+    "network": "Sunucuya bağlanılamadı. Backend'in çalıştığından emin olun.",
+    "forbidden": "Erişim reddedildi. API anahtarınızı kontrol edin.",
+    "unauthorized": "Oturum doğrulanamadı. API anahtarınızı kontrol edin.",
+    "notFound": "İstenen kayıt bulunamadı.",
+    "server": "Sunucu geçici olarak yanıt veremiyor. Lütfen tekrar deneyin.",
+    "gateway": "Backend şu an erişilemiyor. Birkaç dakika sonra tekrar deneyin.",
+    "timeout": "İstek zaman aşımına uğradı. Bağlantınızı kontrol edin.",
+    "parse": "Veri işlenirken bir sorun oluştu.",
+    "dataQualityGate": "Veri kalitesi doğrulaması başarısız. Son kayıtlı veriler gösteriliyor.",
+    "modelReliabilityGate": "Model güvenilirlik eşiği sağlanamadı.",
+    "decisionReliabilityGate": "Karar güvenilirlik eşiği sağlanamadı.",
+    "validation": "İstek doğrulanamadı. Parametreleri kontrol edin."
+  }
+}

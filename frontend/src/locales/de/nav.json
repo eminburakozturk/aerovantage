@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "general": "ALLGEMEIN",
+    "forecast": "PROGNOSE",
+    "market": "MARKT",
+    "risk": "RISIKO",
+    "ai": "KI",
+    "operations": "BETRIEB",
+    "system": "SYSTEM"
+  },
+  "items": {
+    "operations": "Operationszentrale",
+    "dashboard": "Management-Dashboard",
+    "forecast": "Prognosezentrum",
+    "forecast-weather": "Wetter",
+    "forecast-history": "Prognoseverlauf",
+    "market-ptf": "PTF",
+    "market-smf": "SMF",
+    "market": "Marktanalyse",
+    "risk": "Risikozentrum",
+    "risk-financial": "Finanzielles Risiko",
+    "risk-production": "Produktionsrisiko",
+    "ai": "Entscheidungszentrum",
+    "ai-archive": "KI-Archiv",
+    "assets": "Anlagen",
+    "scenarios": "Szenarien",
+    "reports": "Berichte",
+    "monitoring": "Ueberwachung",
+    "admin": "Verwaltung",
+    "operations-mobile": "Betrieb",
+    "dashboard-mobile": "Dashboard",
+    "forecast-mobile": "Prognose",
+    "ai-mobile": "KI",
+    "reports-mobile": "Berichte"
+  },
+  "steps": {
+    "0800_forecast": "08:00 Produktionsprognose",
+    "0801_performance_monitoring": "08:01 Leistungsueberwachung",
+    "0802_risk_calculation": "08:02 Risikoberechnung",
+    "0803_alert_generation": "08:03 Alarmgenerierung",
+    "0804_ai_explanation": "08:04 KI-Erklaerung",
+    "0805_dashboard_update": "08:05 Dashboard-Aktualisierung"
+  },
+  "pages": {
+    "dashboard": {
+      "section": "Allgemein",
+      "title": "Management-Dashboard",
+      "description": "Portfolio-Uebersicht und Betriebsstatus"
+    },
+    "operations": {
+      "section": "Allgemein",
+      "title": "Operationszentrale",
+      "description": "Live-Betriebsleitstand"
+    },
+    "activity": {
+      "section": "System",
+      "title": "Betriebsablauf",
+      "description": "Pipeline-Verlauf"
+    },
+    "fallback": {
+      "section": "AeroVantage",
+      "title": "Plattform",
+      "description": ""
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "language": {
+    "title": "Spracheinstellung",
+    "description": "Oberflaeche, KI-Briefings und Berichtsexporte verwenden die gewaehlte Sprache.",
+    "current": "Aktive Sprache",
+    "saved": "Spracheinstellung gespeichert"
+  },
+  "users": {
+    "title": "Benutzer",
+    "meta": "{count} registriert",
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "status": "Status"
+  },
+  "models": {
+    "title": "KI-Modelle",
+    "loading": "Wird geladen",
+    "loadingInfo": "Modellinformationen werden geladen...",
+    "loadFailed": "Modellinformationen konnten nicht geladen werden",
+    "active": "Aktiv: {name} ({type})",
+    "apiKey": "API-Schluessel: {status}",
+    "apiKeyConfigured": "Konfiguriert",
+    "apiKeyMissing": "Nicht konfiguriert (Playbook-Modus)",
+    "providers": "Anbieter: {list}",
+    "modeLive": "Live-LLM",
+    "modePlaybook": "Playbook (Mock)",
+    "playbookEntries": "Playbook-Eintraege: {count}",
+    "cutoverHint": "Fuer Live-LLM LLM_PROVIDER=openai|gemini und LLM_API_KEY in .env setzen, dann Backend neu starten.",
+    "docsHint": "Details: docs/AI-ML-OPS.md"
+  },
+  "config": {
+    "title": "Systemkonfiguration",
+    "loadFailedTitle": "Konfiguration nicht verfuegbar",
+    "loading": "Systemeinstellungen werden geladen...",
+    "unavailable": "Kein Zugriff auf die Konfiguration.",
+    "env": "Umgebung",
+    "log": "Log",
+    "epiasMode": "EPIAS-Modus",
+    "weatherMode": "Wetter-Modus",
+    "scadaMode": "SCADA-Modus",
+    "llm": "LLM",
+    "testMode": "Test",
+    "liveMode": "Live"
+  },
+  "overview": {
+    "apiTitle": "API-Status",
+    "apiOk": "Backend aktiv",
+    "apiWarn": "Pruefung erforderlich",
+    "plantsTitle": "Kraftwerke",
+    "plantsMeta": "{count} registriert"
+  },
+  "loadFailed": "Laden fehlgeschlagen"
+}

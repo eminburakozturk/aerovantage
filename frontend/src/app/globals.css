@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-navy: #07111f;
+    --brand-deep: #0a1b2e;
+    --brand-blue: #1148ff;
+    --brand-bright: #2f80ff;
+    --brand-cyan: #00b8ff;
+    --brand-teal: #00d1b2;
+    --brand-seafoam: #18d39e;
+    --background: 240 6% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 5% 9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 5% 9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 6% 4%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 191 100% 50%;
+    --radius: 0rem;
+  }
+
+  .dark {
+    --background: 240 6% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 5% 9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 5% 9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 6% 4%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 240 5% 65%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    background-color: #07111f;
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+
+  .font-mono,
+  .tabular-nums {
+    font-family: var(--font-jetbrains-mono), ui-monospace, monospace;
+  }
+
+  [id] {
+    scroll-margin-top: 3rem;
+  }
+}
+
+@layer components {
+  .ops-surface {
+    @apply border border-[#27272A] bg-[#18181B] transition-colors duration-200;
+  }
+
+  .ops-surface-interactive {
+    @apply ops-surface hover:border-[#3f3f46] hover:bg-[#1c1c1f];
+  }
+
+  .ops-row-hover {
+    @apply transition-colors duration-200 hover:bg-[#141416];
+  }
+
+  .ops-fade-in {
+    animation: ops-fade-in 250ms ease-out;
+  }
+
+  @keyframes ops-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .ops-chart .recharts-cartesian-grid line {
+    stroke: #27272a;
+  }
+
+  .ops-chart .recharts-cartesian-axis-tick-value {
+    fill: #71717a;
+    font-family: var(--font-jetbrains-mono), ui-monospace, monospace;
+    font-size: 9px;
+  }
+
+  .ops-chart .recharts-line:nth-of-type(1) .recharts-curve {
+    stroke: #60a5fa;
+    stroke-width: 2.5px;
+    stroke-opacity: 1;
+  }
+
+  .ops-chart .recharts-line:nth-of-type(2) .recharts-curve {
+    stroke: #ffffff;
+    stroke-width: 3px;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.35));
+  }
+
+  .ops-chart .recharts-line:nth-of-type(3) .recharts-curve {
+    stroke: #a1a1aa;
+    stroke-width: 1.75px;
+    stroke-dasharray: 4 3;
+    stroke-opacity: 0.9;
+  }
+
+  .ops-chart-scada .recharts-line:nth-of-type(2) .recharts-curve {
+    stroke-width: 3.5px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+  }
+
+  .ops-chart-scada .recharts-line:nth-of-type(1) .recharts-curve {
+    stroke: #93c5fd;
+    stroke-width: 2.75px;
+  }
+
+  .ops-chart .recharts-bar-rectangle {
+    fill: #3f3f46;
+  }
+
+  .ops-chart .recharts-bar-rectangle:last-child {
+    fill: #3b82f6;
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "forecast": {
+    "section": "Prognose",
+    "title": "Prognosezentrum",
+    "description": "Produktionsprognose und Genauigkeit",
+    "tabs": {
+      "overview": "Uebersicht",
+      "weather": "Wetter",
+      "accuracy": "Genauigkeit",
+      "history": "Verlauf"
+    }
+  },
+  "market": {
+    "section": "Markt",
+    "title": "Marktanalyse",
+    "description": "EPIAS PTF · SMF · Trends",
+    "tabs": {
+      "overview": "Uebersicht",
+      "ptf": "PTF",
+      "smf": "SMF",
+      "trends": "Trends"
+    }
+  },
+  "risk": {
+    "section": "Risiko",
+    "title": "Risikozentrum",
+    "description": "Risikobewertung und Ueberwachung",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "financial": "Finanziell",
+      "production": "Produktion",
+      "timeline": "Zeitachse"
+    }
+  },
+  "ai": {
+    "section": "KI",
+    "title": "KI-Analyse",
+    "description": "Briefing · Empfehlungen · Entscheidungsverlauf",
+    "tabs": {
+      "pending": "Ausstehende Aktionen",
+      "archive": "Archiv"
+    }
+  },
+  "reports": {
+    "section": "Betrieb",
+    "title": "Berichte",
+    "description": "Berichtserstellung und Export",
+    "tabs": {
+      "executive": "Management",
+      "daily": "Taeglich",
+      "weekly": "Woechentlich",
+      "portfolio": "Portfolio",
+      "export": "Export"
+    }
+  },
+  "assets": {
+    "section": "Betrieb",
+    "title": "Anlagen",
+    "description": "Kraftwerksinventar",
+    "tabs": {
+      "plants": "Kraftwerke",
+      "turbines": "Turbinen",
+      "health": "Zustand",
+      "performance": "Leistung"
+    }
+  },
+  "monitoring": {
+    "section": "System",
+    "title": "Ueberwachung",
+    "description": "API- und Systemzustand",
+    "tabs": {
+      "observability": "Observability",
+      "api": "API",
+      "health": "Zustand",
+      "jobs": "Jobs",
+      "logs": "Logs",
+      "activity": "Ablauf"
+    }
+  },
+  "scenarios": {
+    "section": "Betrieb",
+    "title": "Szenarien",
+    "description": "What-if-Simulation",
+    "tabs": {
+      "builder": "Ersteller",
+      "history": "Verlauf"
+    }
+  },
+  "settings": {
+    "section": "System",
+    "title": "Verwaltung",
+    "description": "Benutzer · KI-Modelle · Konfiguration",
+    "tabs": {
+      "overview": "Uebersicht",
+      "users": "Benutzer",
+      "models": "KI-Modelle",
+      "config": "Konfiguration",
+      "language": "Sprache"
+    }
+  }
+}

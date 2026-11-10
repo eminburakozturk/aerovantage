@@ -1,0 +1,12 @@
+{
+  "entrypointTarget": "./api/index",
+  "indexExportTargets": [
+    "./config",
+    "./errors",
+    "./types",
+    "./endpoints",
+    "./downloads",
+    "./dashboard"
+  ]
+}
+

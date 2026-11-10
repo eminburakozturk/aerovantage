@@ -1,0 +1,54 @@
+{
+  "language": {
+    "title": "Dil Tercihi",
+    "description": "Arayüz, AI brifingleri ve rapor dışa aktarımları seçilen dilde gösterilir.",
+    "current": "Aktif dil",
+    "saved": "Dil tercihi kaydedildi"
+  },
+  "users": {
+    "title": "Kullanıcılar",
+    "meta": "{count} kayıtlı",
+    "name": "Ad",
+    "email": "E-posta",
+    "role": "Rol",
+    "status": "Durum"
+  },
+  "models": {
+    "title": "AI Modelleri",
+    "loading": "Yükleniyor",
+    "loadingInfo": "Model bilgisi alınıyor...",
+    "loadFailed": "Model bilgisi alınamadı",
+    "active": "Aktif: {name} ({type})",
+    "apiKey": "API anahtarı: {status}",
+    "apiKeyConfigured": "Yapılandırıldı",
+    "apiKeyMissing": "Yapılandırılmadı (playbook modu)",
+    "providers": "Sağlayıcılar: {list}",
+    "modeLive": "Canlı LLM",
+    "modePlaybook": "Playbook (mock)",
+    "playbookEntries": "Playbook maddeleri: {count}",
+    "cutoverHint": "Canlı LLM için .env içinde LLM_PROVIDER=openai|gemini ve LLM_API_KEY ayarlayıp backend'i yeniden başlatın.",
+    "docsHint": "Ayrıntılar: docs/AI-ML-OPS.md"
+  },
+  "config": {
+    "title": "Sistem Yapılandırması",
+    "loadFailedTitle": "Yapılandırma alınamadı",
+    "loading": "Sistem ayarları yükleniyor...",
+    "unavailable": "Yapılandırma bilgisine erişilemedi.",
+    "env": "Ortam",
+    "log": "Log",
+    "epiasMode": "EPİAŞ modu",
+    "weatherMode": "Hava modu",
+    "scadaMode": "SCADA modu",
+    "llm": "LLM",
+    "testMode": "Test",
+    "liveMode": "Canlı"
+  },
+  "overview": {
+    "apiTitle": "API Durumu",
+    "apiOk": "Backend aktif",
+    "apiWarn": "Kontrol gerekli",
+    "plantsTitle": "Santraller",
+    "plantsMeta": "{count} kayıtlı"
+  },
+  "loadFailed": "Yüklenemedi"
+}

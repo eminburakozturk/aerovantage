@@ -1,0 +1,26 @@
+{
+  "brand": "ΛEROVΛNTΛGE",
+  "tagline": "Operational Intelligence",
+  "edition": "Enterprise",
+  "version": "v1.0.0-rc1",
+  "retry": "Retry",
+  "loading": "Loading",
+  "save": "Save",
+  "cancel": "Cancel",
+  "status": {
+    "operational": "Operational",
+    "maintenance": "Maintenance",
+    "offline": "Offline",
+    "degraded": "Degraded",
+    "ok": "Healthy",
+    "warn": "Warning",
+    "crit": "Critical",
+    "idle": "Idle",
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed",
+    "mock": "Test mode",
+    "live": "Live",
+    "active": "Active"
+  }
+}

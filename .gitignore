@@ -1,0 +1,92 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Test / type caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.env.*
+!.env.example
+!.env.local.example
+.venv/
+venv/
+ENV/
+
+# Frontend dependencies & build (never commit)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env*.local
+
+# Local audit / media artifacts
+_checkup/
+video_frames/
+
+# Optional: ignore derived release zips if generated
+release/**/*.zip
+
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# IDE / agent
+.idea/
+.vscode/
+.cursor/
+*.swp
+
+# OS / local shortcuts
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Jupyter
+.ipynb_checkpoints
+
+# ML artifacts
+*.pkl
+*.h5
+checkpoints/
+wandb/
+mlruns/
+
+# Data (audit log / local model artifacts — git'e sızmasın)
+data/*.jsonl
+data/*.db
+data/models/
+*.csv
+*.parquet
+
+# Secrets
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# AeroVantage DX CLI
+.aero.pid
+launcher/.tray.lock
+
+# Tray launcher logs
+launcher/logs/*.log
+
+# PyInstaller build artifacts
+build/pyinstaller/
+dist/
+AeroVantage.exe

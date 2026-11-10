@@ -1,0 +1,8 @@
+{
+  "errorTitle": "Ein Problem ist aufgetreten",
+  "retry": "Erneut versuchen",
+  "emptyTitle": "Keine Daten gefunden",
+  "loadingData": "Daten werden geladen",
+  "loadingPage": "Seite wird geladen",
+  "settingsLoading": "Verwaltungsseite wird geladen"
+}

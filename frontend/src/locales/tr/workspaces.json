@@ -1,0 +1,101 @@
+{
+  "forecast": {
+    "section": "Tahmin",
+    "title": "Tahmin Merkezi",
+    "description": "Üretim tahmini ve doğruluk",
+    "tabs": {
+      "overview": "Özet",
+      "weather": "Hava",
+      "accuracy": "Doğruluk",
+      "history": "Geçmiş"
+    }
+  },
+  "market": {
+    "section": "Piyasa",
+    "title": "Piyasa Analizi",
+    "description": "EPİAŞ PTF · SMF · trend",
+    "tabs": {
+      "overview": "Özet",
+      "ptf": "PTF",
+      "smf": "SMF",
+      "trends": "Trendler"
+    }
+  },
+  "risk": {
+    "section": "Risk",
+    "title": "Risk Merkezi",
+    "description": "Risk değerlendirmesi ve izleme",
+    "tabs": {
+      "dashboard": "Pano",
+      "financial": "Finansal",
+      "production": "Üretim",
+      "timeline": "Zaman Çizelgesi"
+    }
+  },
+  "ai": {
+    "section": "Yapay Zeka",
+    "title": "AI Analiz",
+    "description": "Brifing · tavsiye · karar geçmişi",
+    "tabs": {
+      "pending": "Bekleyen Aksiyonlar",
+      "archive": "Arşiv"
+    }
+  },
+  "reports": {
+    "section": "Operasyon",
+    "title": "Raporlar",
+    "description": "Rapor üretimi ve dışa aktarma",
+    "tabs": {
+      "executive": "Yönetici",
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "portfolio": "Portföy",
+      "export": "Dışa Aktar"
+    }
+  },
+  "assets": {
+    "section": "Operasyon",
+    "title": "Varlıklar",
+    "description": "Santral envanteri",
+    "tabs": {
+      "plants": "Santraller",
+      "turbines": "Türbinler",
+      "health": "Sağlık",
+      "performance": "Performans"
+    }
+  },
+  "monitoring": {
+    "section": "Sistem",
+    "title": "İzleme",
+    "description": "API ve sistem sağlığı",
+    "tabs": {
+      "observability": "Observability",
+      "api": "API",
+      "health": "Sağlık",
+      "jobs": "İşler",
+      "logs": "Loglar",
+      "activity": "Akış"
+    }
+  },
+  "scenarios": {
+    "section": "Operasyon",
+    "title": "Senaryolar",
+    "description": "What-if simülasyonu",
+    "tabs": {
+      "builder": "Oluşturucu",
+      "history": "Geçmiş"
+    }
+  },
+  "settings": {
+    "section": "Sistem",
+    "title": "Yönetim",
+    "description": "Kullanıcılar · AI modelleri · yapılandırma",
+    "tabs": {
+      "overview": "Genel",
+      "users": "Kullanıcılar",
+      "models": "AI Modelleri",
+      "config": "Yapılandırma",
+      "language": "Dil"
+    }
+  }
+}

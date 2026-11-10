@@ -1,0 +1,18 @@
+[
+  {
+    "id": "RES-BAL-01",
+    "name": "Balıkesir RES",
+    "type": "Wind",
+    "lat": 39.64,
+    "lon": 27.88,
+    "capacity_mw": 50
+  },
+  {
+    "id": "RES-BND-02",
+    "name": "Bandırma RES",
+    "type": "Wind",
+    "lat": 40.35,
+    "lon": 27.97,
+    "capacity_mw": 35
+  }
+]

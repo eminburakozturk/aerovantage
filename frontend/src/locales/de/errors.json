@@ -1,0 +1,21 @@
+{
+  "generic": "Ein unerwarteter Fehler ist aufgetreten. Bitte erneut versuchen.",
+  "long": "Der Vorgang konnte nicht abgeschlossen werden. Bitte erneut versuchen oder den Administrator kontaktieren.",
+  "loadFailed": "Daten konnten nicht geladen werden",
+  "downloadFailed": "Download fehlgeschlagen ({status})",
+  "downloadEmpty": "Download fehlgeschlagen: leere Datei",
+  "patterns": {
+    "network": "Server nicht erreichbar. Stellen Sie sicher, dass das Backend laeuft.",
+    "forbidden": "Zugriff verweigert. API-Schluessel pruefen.",
+    "unauthorized": "Authentifizierung fehlgeschlagen. API-Schluessel pruefen.",
+    "notFound": "Der angeforderte Datensatz wurde nicht gefunden.",
+    "server": "Der Server ist voruebergehend nicht verfuegbar. Bitte erneut versuchen.",
+    "gateway": "Das Backend ist nicht erreichbar. In einigen Minuten erneut versuchen.",
+    "timeout": "Zeitueberschreitung der Anfrage. Verbindung pruefen.",
+    "parse": "Beim Verarbeiten der Daten ist ein Problem aufgetreten.",
+    "dataQualityGate": "Datenqualitaetspruefung fehlgeschlagen. Letzte gespeicherte Daten werden angezeigt.",
+    "modelReliabilityGate": "Modellzuverlaessigkeitsschwelle nicht erreicht.",
+    "decisionReliabilityGate": "Entscheidungszuverlaessigkeitsschwelle nicht erreicht.",
+    "validation": "Die Anfrage konnte nicht validiert werden. Parameter pruefen."
+  }
+}

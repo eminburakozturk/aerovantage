@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "general": "GENEL",
+    "forecast": "TAHMİN",
+    "market": "PİYASA",
+    "risk": "RİSK",
+    "ai": "YAPAY ZEKA",
+    "operations": "OPERASYON",
+    "system": "SİSTEM"
+  },
+  "items": {
+    "operations": "Operasyon Merkezi",
+    "dashboard": "Yönetici Paneli",
+    "forecast": "Tahmin Merkezi",
+    "forecast-weather": "Hava Durumu",
+    "forecast-history": "Geçmiş Tahminler",
+    "market-ptf": "PTF",
+    "market-smf": "SMF",
+    "market": "Piyasa Analizi",
+    "risk": "Risk Merkezi",
+    "risk-financial": "Finansal Risk",
+    "risk-production": "Üretim Riski",
+    "ai": "Karar Merkezi",
+    "ai-archive": "AI Arşivi",
+    "assets": "Varlıklar",
+    "scenarios": "Senaryolar",
+    "reports": "Raporlar",
+    "monitoring": "İzleme",
+    "admin": "Yönetim",
+    "operations-mobile": "Operasyon",
+    "dashboard-mobile": "Pano",
+    "forecast-mobile": "Tahmin",
+    "ai-mobile": "AI",
+    "reports-mobile": "Rapor"
+  },
+  "steps": {
+    "0800_forecast": "08:00 Üretim Tahmini",
+    "0801_performance_monitoring": "08:01 Performans İzleme",
+    "0802_risk_calculation": "08:02 Risk Hesaplama",
+    "0803_alert_generation": "08:03 Uyarı Üretimi",
+    "0804_ai_explanation": "08:04 AI Açıklaması",
+    "0805_dashboard_update": "08:05 Pano Güncelleme"
+  },
+  "pages": {
+    "dashboard": {
+      "section": "Genel",
+      "title": "Yönetici Paneli",
+      "description": "Portföy özeti ve operasyonel durum"
+    },
+    "operations": {
+      "section": "Genel",
+      "title": "Operasyon Merkezi",
+      "description": "Canlı operasyon kontrol odası"
+    },
+    "activity": {
+      "section": "Sistem",
+      "title": "Operasyon Akışı",
+      "description": "Pipeline geçmişi"
+    },
+    "fallback": {
+      "section": "AeroVantage",
+      "title": "Platform",
+      "description": ""
+    }
+  }
+}

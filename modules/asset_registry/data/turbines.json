@@ -1,0 +1,32 @@
+{
+  "RES-BAL-01": [
+    { "id": "BAL-T01", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 94 },
+    { "id": "BAL-T02", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 91 },
+    { "id": "BAL-T03", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 88 },
+    { "id": "BAL-T04", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 92 },
+    { "id": "BAL-T05", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 90 },
+    { "id": "BAL-T06", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 87 },
+    { "id": "BAL-T07", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 93 },
+    { "id": "BAL-T08", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 89 },
+    { "id": "BAL-T09", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "maintenance", "health_score": 72 },
+    { "id": "BAL-T10", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 95 },
+    { "id": "BAL-T11", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 86 },
+    { "id": "BAL-T12", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 90 },
+    { "id": "BAL-T13", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 88 },
+    { "id": "BAL-T14", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 91 },
+    { "id": "BAL-T15", "model": "Vestas V112-3.3", "capacity_mw": 3.3, "status": "operational", "health_score": 92 }
+  ],
+  "RES-BND-02": [
+    { "id": "BND-T01", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 90 },
+    { "id": "BND-T02", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 88 },
+    { "id": "BND-T03", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 91 },
+    { "id": "BND-T04", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 87 },
+    { "id": "BND-T05", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 93 },
+    { "id": "BND-T06", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 89 },
+    { "id": "BND-T07", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 85 },
+    { "id": "BND-T08", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 92 },
+    { "id": "BND-T09", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 86 },
+    { "id": "BND-T10", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 90 },
+    { "id": "BND-T11", "model": "GE 3.2-103", "capacity_mw": 3.2, "status": "operational", "health_score": 88 }
+  ]
+}

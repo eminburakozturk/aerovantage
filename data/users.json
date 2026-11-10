@@ -1,0 +1,23 @@
+[
+  {
+    "id": "usr-001",
+    "name": "Sistem Yöneticisi",
+    "email": "admin@aerovantage.local",
+    "role": "admin",
+    "status": "active"
+  },
+  {
+    "id": "usr-002",
+    "name": "Operasyon Uzmanı",
+    "email": "operator@aerovantage.local",
+    "role": "operator",
+    "status": "active"
+  },
+  {
+    "id": "usr-003",
+    "name": "Analist",
+    "email": "analyst@aerovantage.local",
+    "role": "analyst",
+    "status": "active"
+  }
+]

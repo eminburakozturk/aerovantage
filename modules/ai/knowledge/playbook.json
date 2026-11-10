@@ -1,0 +1,22 @@
+[
+  {
+    "id": "storm_high_cost",
+    "title": "Lessons Learned",
+    "message": "Geçmiş fırtınalarda türbin pitch açıları geç uyarlandı, üretim durduruldu. Aksiyon: Pitch kontrol sistemlerini manuel denetle."
+  },
+  {
+    "id": "low_wind_maintenance",
+    "title": "Playbook",
+    "message": "Düşük rüzgar senaryosu. Planlı bakım çalışmaları için uygun zaman penceresi."
+  },
+  {
+    "id": "elevated_risk",
+    "title": "Risk Uyarısı",
+    "message": "Dengesizlik maliyeti yükseliyor. Gün içi üretim tahmini ile gerçekleşen değerleri saatlik izleyin; gerekirse operasyon ekibini bilgilendirin."
+  },
+  {
+    "id": "default",
+    "title": "Operasyonel Durum",
+    "message": "Parametreler normal aralıkta. Standart izleme prosedürüne devam edin."
+  }
+]

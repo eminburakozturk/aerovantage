@@ -1,0 +1,26 @@
+{
+  "brand": "ΛEROVΛNTΛGE",
+  "tagline": "Operational Intelligence",
+  "edition": "Enterprise",
+  "version": "v1.0.0-rc1",
+  "retry": "Erneut versuchen",
+  "loading": "Wird geladen",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "status": {
+    "operational": "Betriebsbereit",
+    "maintenance": "Wartung",
+    "offline": "Offline",
+    "degraded": "Eingeschraenkt",
+    "ok": "Gesund",
+    "warn": "Warnung",
+    "crit": "Kritisch",
+    "idle": "Leerlauf",
+    "running": "Laeuft",
+    "completed": "Abgeschlossen",
+    "failed": "Fehlgeschlagen",
+    "mock": "Testmodus",
+    "live": "Live",
+    "active": "Aktiv"
+  }
+}

@@ -1,0 +1,40 @@
+# AeroVantage Frontend (Next.js 15) — production image
+# Build context: repository root
+
+FROM node:20-alpine AS deps
+WORKDIR /app
+# .npmrc (legacy-peer-deps) must be present for npm ci to match local lockfile resolution
+COPY frontend/package.json frontend/package-lock.json* frontend/.npmrc* ./
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
+
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY frontend/ .
+ENV NEXT_TELEMETRY_DISABLED=1
+RUN npm run build
+
+FROM node:20-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    PORT=3000 \
+    HOSTNAME=0.0.0.0 \
+    API_BACKEND_URL=http://api:8000
+# API_SECRET_KEY must be provided at runtime (compose/k8s). No baked-in default.
+
+RUN addgroup --system --gid 1001 nodejs \
+ && adduser --system --uid 1001 nextjs
+
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+USER nextjs
+EXPOSE 3000
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=25s --retries=3 \
+  CMD node -e "fetch('http://127.0.0.1:3000/').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+
+CMD ["node", "server.js"]
